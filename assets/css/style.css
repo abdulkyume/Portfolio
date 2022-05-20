@@ -1,0 +1,73 @@
+header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/1st.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.name {
+  margin-top: 8rem;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.designation {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.shortdesc {
+  font-size: 1.5rem;
+  margin-bottom: 10rem;
+  font-weight: 600;
+}
+.myskills {
+  background-color: #dcedc1;
+}
+.myskills img {
+  width: 6.5rem;
+  height: 6.5rem;
+  transition: 1s;
+}
+.myeducation {
+  background-color: #a8e6cf;
+}
+.bi-list {
+  color: white;
+}
+.navbar-toggler {
+  border: 1px solid white !important;
+}
+.myproject p {
+  font-size: 1.5rem;
+}
+.contactme {
+  background-color: #4898ee;
+}
+.contactme .list-unstyled i {
+  font-size: 2rem;
+}
+.nav-colored {
+  background-color: #000;
+}
+.nav-transparent {
+  background-color: transparent;
+}
+.myskills img:hover {
+  width: 8.5rem;
+  height: 8.5rem;
+}
+.card {
+  transition: 1s;
+}
+.card:hover {
+  transform: scale(1.3);
+}
+.smedia li{
+  transition: 1s;
+}
+.smedia li:hover{
+  transform: scale(1.3);
+}
