@@ -1,4 +1,4 @@
-header {
+.header {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/1st.jpg");
   background-position: center;
   background-size: cover;
@@ -72,4 +72,25 @@ header {
 }
 .smedia li:hover{
   transform: scale(1.3);
+}
+.resumedesc{
+  text-align: justify;
+}
+.secondarycolor{
+  background-color: #2F3C45 !important; 
+}
+.primarycolor{
+  background-color: #374457 !important;
+}
+.details{
+  background-color: #D2D3D5 !important;
+}
+.hight{
+  height: 3rem;
+}
+.socialink{
+  font-size: small;
+}
+.bg-btn{
+  background-color: #2E3C47;
 }
