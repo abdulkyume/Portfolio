@@ -98,3 +98,9 @@
   text-align:center;
   vertical-align: middle;
 }
+.link-info{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
