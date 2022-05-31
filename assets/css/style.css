@@ -1,5 +1,6 @@
 .header {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/1st.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/1st.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -8,22 +9,11 @@
   top: 0;
   z-index: 100;
 }
-
 .name {
   margin-top: 8rem;
-  font-size: 4rem;
-  font-weight: 600;
-}
-.designation {
-  font-size: 2.5rem;
-  font-weight: 600;
 }
 .shortdesc {
-  font-size: 1.5rem;
-  margin-bottom: 10rem;
-  font-weight: 600;
-  margin-left: auto;
-  margin-right: auto;
+  width: 75%;
 }
 .myskills {
   background-color: #dcedc1;
@@ -67,40 +57,55 @@
 .card:hover {
   transform: scale(1.3);
 }
-.smedia li{
+.smedia li {
   transition: 1s;
 }
-.smedia li:hover{
+.smedia li:hover {
   transform: scale(1.3);
 }
-.resumedesc{
+.resumedesc {
   text-align: justify;
 }
-.secondarycolor{
-  background-color: #2F3C45 !important; 
+.secondarycolor {
+  background-color: #2f3c45 !important;
 }
-.primarycolor{
+.primarycolor {
   background-color: #374457 !important;
 }
-.details{
-  background-color: #D2D3D5 !important;
+.details {
+  background-color: #d2d3d5 !important;
 }
-.hight{
+.hight {
   height: 3rem;
 }
-.socialink{
+.socialink {
   font-size: small;
 }
-.bg-btn{
-  background-color: #2E3C47;
+.bg-btn {
+  background-color: #2e3c47;
 }
-.profilepic{
-  text-align:center;
+.profilepic {
+  text-align: center;
   vertical-align: middle;
 }
-.link-info{
+.link-info {
   text-decoration: none;
   font-weight: bold;
   font-size: 24px;
   color: black;
+}
+.text-justify {
+}
+@media (max-width: 480px) {
+  .text-justify {
+    text-align: justify !important;
+  }
+  .shortdesc{
+    width: 96% !important;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+  }
 }

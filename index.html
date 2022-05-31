@@ -18,7 +18,7 @@
 
   <body>
     <!-- header content start -->
-    <header class="header">
+    <header class="header p-lg-5 p-md-3">
       <!-- navbar start -->
       <nav class="navbar navbar-expand-lg w-100" id="mynav">
         <div class="container-fluid">
@@ -98,15 +98,26 @@
       </nav>
       <!-- navbar end -->
       <!-- header content start -->
-      <div class="p-5 text-white">
-        <p class="name text-center">Abdul Kyume</p>
-        <p class="designation text-center">Web Devloper</p>
-        <p class="shortdesc text-center w-50">
+      <div class="container p-lg-5  p-md-3">
+        <div class="row justify-content-center text-white p-lg-5 p-md-3">
+          <span class="name text-center h1 display-3 fw-normal pt-lg-3 pt-md-2">Abdul Kyume</span>
+          <span class="designation text-center h2 fw-normal display-6  pt-lg-2 pt-md-2">Web Devloper</span>
+          <span class="shortdesc text-lg-center text-md-center text-justify p-lg-5 h5">
+            Hello! My name is Abdul Kyume and I am currently working as a web
+            designer. Below you can find my portfolio and some of my web
+            desigining work.
+          </span>
+        </div>
+      </div>
+      <!-- <div class="text-white text-center row justify-content-center">
+        <span class="name text-center h1 display-3 fw-normal pt-lg-3">Abdul Kyume</span>
+        <span class="designation text-center h2 fw-normal display-6  pt-lg-2">Web Devloper</span>
+        <span class="shortdesc text-lg-center text-md-center text-justify p-lg-5 h5">
           Hello! My name is Abdul Kyume and I am currently working as a web
           designer. Below you can find my portfolio and some of my web
           desigining work.
-        </p>
-      </div>
+        </span>
+      </div> -->
       <!-- header content end -->
     </header>
     <!-- header content end -->
@@ -230,26 +241,13 @@
             <div class="col-lg-4 col-md-4 col-12">
               <div class="card ms-auto me-auto mb-1" style="width: 12rem">
                 <img
-                  src="./assets/img/webdev.png"
-                  class="ms-auto me-auto mt-1"
-                  alt="..."
-                  width="50%"
-                />
-                <div class="card-body">
-                  <h5 class="card-title text-center">Web Design</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-12">
-              <div class="card ms-auto me-auto mb-1" style="width: 12rem">
-                <img
                   src="./assets/img/wd.png"
                   class="ms-auto me-auto mt-1"
                   alt="..."
                   width="50%"
                 />
                 <div class="card-body">
-                  <h5 class="card-title text-center">Web Design</h5>
+                  <h5 class="card-title text-center">Web Developer</h5>
                 </div>
               </div>
             </div>
@@ -262,26 +260,17 @@
 
     <!-- myeducation experience start -->
     <section class="myeducation mt-5 mb-5">
-      <div class="container-fluid">
         <div class="container">
           <div class="row justify-content-center">
             <!-- education start -->
             <div class="col-lg-6 col-md-6 col-6 mb-5">
-              <h1 class="text-center mt-5" id="myedu">Education</h1>
-              <div class="row m-0">
-                <h3 class="ms-lg-5">University</h3>
-                <strong class="ms-lg-5">East West University</strong>
-              </div>
-              <div class="row m-0">
-                <h3 class="ms-lg-5">HSC</h3>
-                <strong class="ms-lg-5"
-                  >Dr. Mahbubur Rahman Mollah College</strong
-                >
-              </div>
-              <div class="row m-0">
-                <h3 class="ms-lg-5">SSC</h3>
-                <strong class="ms-lg-5">A. K. High School & College</strong>
-              </div>
+              <h1 class="text-center mt-5 mb-4 fw-bold" id="myedu">Education</h1>
+              <h3 class="ms-lg-5">University</h3>
+              <strong class="ms-lg-5">East West University</strong>
+              <h3 class="ms-lg-5">HSC</h3>
+              <strong class="ms-lg-5">Dr. Mahbubur Rahman Mollah College</strong>
+              <h3 class="ms-lg-5">SSC</h3>
+              <strong class="ms-lg-5">A. K. High School & College</strong>
             </div>
             <!-- education end -->
             <!-- experience start -->
@@ -298,13 +287,11 @@
             <!-- experience end -->
           </div>
         </div>
-      </div>
     </section>
     <!-- myeducation experience end -->
 
     <!-- myproject start -->
     <section class="myproject">
-      <div class="container-fluid">
         <div class="container">
           <div class="row justify-content-center">
             <h1>
@@ -318,13 +305,11 @@
             </ul>
           </div>
         </div>
-      </div>
     </section>
     <!-- myproject end -->
 
     <!-- getintouch start -->
     <section class="contactme">
-      <div class="container-fluid">
         <div class="container">
           <div class="row justify-content-center text-white">
             <h1 class="m-3" id="contactme">
@@ -334,13 +319,12 @@
           <div class="row justify-content-center">
             <!-- getintouch contactinfo start -->
             <div class="row w-75 ms-auto me-auto bg-white p-5">
-              <h3 class="mb-3">
-                <i class="bi bi-geo-alt"></i> Dhaka, Bangladesh
-              </h3>
-              <h3 class="mb-3"><i class="bi bi-phone"></i> +8801681498184</h3>
-              <h3 class="mb-3">
-                <i class="bi bi-envelope-fill"></i> abbirtak@gmail.com
-              </h3>
+              <div class="col-lg-1 col-2 col-md-1 mb-4"><i class="bi bi-geo-alt"></i></div>
+              <div class="col-lg-11 col-10 col-md-11  mb-4">Dhaka, Bangladesh</div>
+              <div class="col-lg-1 col-2 col-md-1  mb-4"><i class="bi bi-phone"></i></div>
+              <div class="col-lg-11 col-10 col-md-11 mb-4">+8801681498184</div>
+              <div class="col-lg-1 col-2 col-md-1 mb-4"><i class="bi bi-envelope-fill"></i></div>
+              <div class="col-lg-11 col-10 col-md-11 mb-4">abbirtak@gmail.com</div>
             </div>
             <!-- getintouch contactinfo end -->
             <!-- getintouch social start -->
@@ -390,14 +374,13 @@
             <!-- getintouch social end -->
           </div>
         </div>
-      </div>
     </section>
     <!-- getintouch end -->
 
     <!-- footer start -->
     <footer class="footer m-3">
       <div class="row justify-content-center">
-        © 2022 Online Resume. All Rights Reserved | Design by Abdul Kyume
+        <p class="text-center">© 2022 Online Resume. All Rights Reserved | Design by Abdul Kyume</p>
       </div>
     </footer>
     <!-- footer end -->
