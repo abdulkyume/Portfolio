@@ -1,4 +1,5 @@
 var myNav= document.getElementById("mynav");
+
 window.onscroll = function () { 
     console.log(myNav.classList)
     if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200) {
